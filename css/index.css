@@ -1,0 +1,107 @@
+
+#btn{
+    
+    height: 7rem;
+    width: 7rem;
+    color: rgb(238, 233, 233);
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+    top: 50%;
+    left: 38%;
+    
+   
+}
+.page{
+    background-color: rgb(16, 61, 46);
+    height: 100%;
+    width: 100%;
+}
+
+
+.score{
+    display: flex;
+  
+    justify-content: space-evenly;
+    align-items:center;
+ 
+
+}
+.p-count,.c-count{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    font-size: 4rem;
+    z-index: 2;
+    top: 65%;
+    left: 45%;
+}
+
+
+.options{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 7rem;
+
+
+
+   
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rock, #paper, #scissor{
+    padding: 0.8rem;
+    width: 100px;
+    border-radius: 10px;
+    
+    
+}
+.result{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 125%;
+    left: 44%;
+    padding: 60px;
+    background-color: aqua;
+    width: 100px;
+}
+
+#topbar {
+    background-color: aqua;
+    position: absolute;
+    top: 145%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+}
+#again{
+    position: absolute;
+    left: 7%;
+    width: 15rem;
+    height: 5rem;
+    
+}
+.photo #player #computer{
+    /* transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(180deg);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH"; */
+}
+
+
