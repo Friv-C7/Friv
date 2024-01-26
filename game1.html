@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="css/index2.css">
+      
+</head>
+ 
+<body>
+    <h1 class="tit">Guess Game</h1>
+ 
+    <img src="images/guess1.png" alt="">
+
+    <div class="form">
+        <h2 id="htwo" form="guessField">
+            Guess what is the number: 
+        </h2>
+         
+        <input type="text" id="guessinp" class="guessinp">
+        <br>
+        <br>
+        <input type="submit" value="Guess" class="guesssub" id="subguess" onclick="numbguess()">
+        <br>
+        <br>
+        <h3 id="hthree">Guess who is this character:</h3>
+        <img src="images/guess2.png" alt="">
+        <br>
+        <br>
+        <p id="quest"></p>
+        <br>
+        <input type="text" id="guesscharinp">
+        <br>
+        <br>
+        <input type="submit" value ="Guess" class="guesssubchar" id="charguess" onclick="charguess()">
+        <h4 id="hfor">Guess what is the color</h4>
+        <img src="images/guess3.png" alt="">
+
+        <br>
+        <input type="text" id="guesscolorinp">
+        <p id="color"></p>
+        <h5 id="col"></h5>
+        <input type="submit" value ="Guess" class="guesscolor" id="colorguess" onclick="(colorguess())">
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="js/index1.js"></script>
+
+    </body>
+ 
+</html>

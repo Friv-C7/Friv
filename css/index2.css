@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f3f4ed ;
+}
+
+.tit {
+    font-size: 60px;
+    color: #e1a21b;
+}
+#htwo {
+    color: #e40b0b;
+    font-size: 30px;
+
+}
+#hthree {
+    color: #0b7a2c;
+    font-size: 30px;
+
+}
+
+#teste {
+    background-color: #ccd5ce;
+    color: #666;
+    max-width: 400px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+
+}
+
+.form {
+    margin-top: 20px;
+}
+
+
+.guessinp {
+    padding: 8px;
+    font-size: 16px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.guesssub {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e40b0b;
+    color: #fff;
+    border: none;
+}
+
+.guesssub:hover {
+    background-color: #45a049;
+}
+
+.guesssubchar {
+ padding : 8px 20px ;
+ font-size:16px;
+ cursor: pointer;
+ background-color:#4caf50 ;
+ color: #fff;
+ border:none;
+}
+#guesscharinp {
+
+    padding: 8px;
+    font-size: 16px;
+    width: 150px;
+    margin-right: 10px;
+
+}
+#hfor {
+    color: #2b0fa8;
+    font-size: 30px;
+
+}
+.guesscolor {
+    background-color: #2b0fa8;
+    padding : 8px 20px ;
+    font-size:16px;
+    cursor: pointer;
+    background-color:#2b0fa8 ;
+    color: #fff;
+    border:none;
+
+
+}
+.guesscolorinp {
+    padding: 8px;
+    font-size: 16px;
+    width: 150px;
+    margin-right: 10px;
+
+}
+#quest{
+    padding: 25px;
+    background-color: #d9d7e2;
+    font-size: 16px;
+ 
+}
+.guesscolorinp {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e40b0b;
+    color: #fff;
+    border: none;
+}
+#col{
+    padding: 25px;
+    background-color: #d9d7e2;
+    font-size: 16px;
+ 
+}
